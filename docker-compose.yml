@@ -1,0 +1,13 @@
+version: '3'
+services:
+  shoeshine_react:
+    build:
+      context: .
+      dockerfile: Dockerfile.local
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./src:/src
+    ports:
+      - 3000:3000
+    command: npm start

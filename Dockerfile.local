@@ -1,0 +1,4 @@
+FROM node:12.14-alpine
+RUN mkdir /src
+WORKDIR /src
+RUN npm install -g create-react-app
