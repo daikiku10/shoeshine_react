@@ -3,6 +3,8 @@
 靴磨きの店舗を探すアプリのfrontendのプロジェクトです
 
 ## ディレクトリ構成
+```
+
 src/src
 |-app         store,rootReducer,全体で使用する定数など
 |-assets      スタイルシート
